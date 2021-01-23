@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-color: white;
+    background: url('popcorn.gif') no-repeat center/cover;
+    max-height: inherit;
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+#main {
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+}
+
+h1 {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    color: white;
+    max-width: 900px;
+    padding-top: 20px;
+}
+
+p {
+    color: white;
+    margin: 15px;
+}
+
+#survey-form {
+    color: white;
+    text-align: center;
+}
+
+#description {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin: 20px;
+}
+
+.btn {
+    margin: 20px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+/* Media Query */
+@media(max-width: 720px) {
+    
+    body {
+        max-width: 300px;
+    }
+    
+    h1 {
+        font-size: 35px;
+    }
+    
+    #description {
+        font-size:  18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
